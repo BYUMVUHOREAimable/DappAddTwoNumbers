@@ -12,8 +12,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -44,8 +43,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"a\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"b\",\"type\":\"uint256\"}],\"name\":\"add\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getResult\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"result\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/AddNumbers.sol\":\"AddNumbers\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/AddNumbers.sol\":{\"keccak256\":\"0xd3989b5b87032c3678ccb6e6756db65c318cbf5a38f3645572bbd3acb0eeb990\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7916a8e8efc768c41bcd1f9cb117fc2619b74196eb38899e7cbccd882308733c\",\"dweb:/ipfs/QmZYDVFUPQC4y4FfM4WXLT2eE7r5RR7VD9zZ1yTuuLvNLd\"]}},\"version\":1}",
@@ -1323,8 +1321,8 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7990334646598Db02EDB6b62824A8f08fc5a48f5",
-      "transactionHash": "0x747f9f35e2901ee2e48a9b3b3d87069bf2e7a9123f7f10282c490f1a09a039c0"
+      "address": "0x3B19479c74F558d002261A0A20404FEa71F54358",
+      "transactionHash": "0x8b1dae5909b14f171f8bb8100aa2f618258ec60b7c9a98755f3e52ff6794d70a"
     },
     "1716386000426": {
       "events": {},
@@ -1334,8 +1332,7 @@
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-05-22T15:44:15.822Z",
-  "networkType": "ethereum",
+  "updatedAt": "2024-05-23T09:49:01.150Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
