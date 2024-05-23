@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import web3 from './web3';
 import contract from './contract';
+import './App.css';
 
 function App() {
     const [num1, setNum1] = useState('');
@@ -26,7 +27,7 @@ function App() {
     };
 
     return (
-        <div>
+        <div className="container">
             <h1>Add Two Numbers</h1>
             <input
                 type="number"
@@ -41,7 +42,7 @@ function App() {
                 placeholder="Second number"
             />
             <button onClick={handleAdd}>Add</button>
-            <div>
+            <div className="result">
                 <h2>Result: {result !== '' ? result : 'No result yet'}</h2>
             </div>
         </div>
